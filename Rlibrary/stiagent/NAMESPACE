@@ -1,0 +1,3 @@
+useDynLib(stiagent)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)

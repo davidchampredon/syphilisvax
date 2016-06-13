@@ -1,0 +1,94 @@
+* using log directory ‘/Users/davidchampredon/GitHub/stiagent/Rlibrary/stiagent.Rcheck’
+* using R version 3.2.1 (2015-06-18)
+* using platform: x86_64-apple-darwin13.4.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘stiagent/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘stiagent’ version ‘1.0’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘stiagent’ can be installed ... WARNING
+Found the following significant warnings:
+  Warning: /Users/davidchampredon/GitHub/stiagent/Rlibrary/stiagent/man/stiagent-package.Rd:27: All text must be in a section
+  Warning: /Users/davidchampredon/GitHub/stiagent/Rlibrary/stiagent/man/stiagent-package.Rd:28: All text must be in a section
+See ‘/Users/davidchampredon/GitHub/stiagent/Rlibrary/stiagent.Rcheck/00install.out’ for details.
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... WARNING
+prepare_Rd: stiagent-package.Rd:27: All text must be in a section
+prepare_Rd: stiagent-package.Rd:28: All text must be in a section
+prepare_Rd: stiagent-package.Rd:34-36: Dropping empty section \examples
+* checking Rd metadata ... OK
+* checking Rd cross-references ... WARNING
+Unknown package ‘<pkg>’ in Rd xrefs
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘stiagent_comp_interv’ ‘stiagent_runsim’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking compilation flags in Makevars ... OK
+* checking for GNU extensions in Makefiles ... OK
+* checking for portable use of $(BLAS_LIBS) and $(LAPACK_LIBS) ... OK
+* checking compiled code ... WARNING
+File ‘stiagent/libs/stiagent.so’:
+  Found ‘__ZNSt3__14cerrE’, possibly from ‘std::cerr’ (C++)
+    Objects: ‘dcDataFrame.o’, ‘dcTools.o’, ‘population.o’
+  Found ‘__ZNSt3__14coutE’, possibly from ‘std::cout’ (C++)
+    Objects: ‘MCsimulation.o’, ‘RV.o’, ‘STI.o’, ‘calibration.o’,
+      ‘check_tools.o’, ‘code_check.o’, ‘compare_simulation.o’,
+      ‘dcDataFrame.o’, ‘dcMatrix.o’, ‘dcTools.o’, ‘individuals.o’,
+      ‘intervention.o’, ‘network_analytics.o’, ‘population.o’,
+      ‘simulation.o’
+  Found ‘___assert_rtn’, possibly from ‘assert’ (C)
+    Objects: ‘dcMatrix.o’, ‘dcTools.o’, ‘population.o’
+  Found ‘_exit’, possibly from ‘exit’ (C)
+    Objects: ‘RV.o’, ‘STI.o’, ‘calibration.o’, ‘dcDataFrame.o’,
+      ‘dcMatrix.o’, ‘dcTools.o’, ‘individuals.o’, ‘population.o’,
+      ‘simulation.o’
+  Found ‘_rand’, possibly from ‘rand’ (C)
+    Objects: ‘RV.o’, ‘check_tools.o’, ‘dcMatrix.o’
+  Found ‘_random’, possibly from ‘random’ (C)
+    Object: ‘dcTools.o’
+  Found ‘_srand’, possibly from ‘srand’ (C)
+    Objects: ‘check_tools.o’, ‘dcMatrix.o’, ‘dcTools.o’
+
+Compiled code should not call entry points which might terminate R nor
+write to stdout/stderr instead of to the console, nor the system RNG.
+
+See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
+* checking examples ... NONE
+* checking PDF version of manual ... OK
+* DONE
+Status: 5 WARNINGs, 1 NOTE
